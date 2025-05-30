@@ -153,3 +153,10 @@ body.dark-mode .toggle-button {
     font-size: 18px;
     margin-top: 10px;
 }
+
+@media screen and (max-width: 768px){
+body{
+
+padding: 50px;
+}
+}
