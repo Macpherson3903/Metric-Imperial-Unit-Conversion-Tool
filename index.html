@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metric/Imperial Unit Converter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="theme">
+        <span id="toggle-button" class="toggle-button" title="Toggle theme">🌞</span>
+    </div>
+
+
+    <div class="metric-container">
+        <div class="metric-first light dark">
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <input id="input-el" type="text"> <br>
+            <button id="convert-el" type="button">Convert</button>
+        </div>
+        <div class="metric-second">
+            <div class="conversion-container">
+                <h2>Length (Meter/Feet)</h2>
+                <p id="length-result"></p>
+            </div>
+            <div class="conversion-container">
+                <h2>Volume (Liters/Gallons)</h2>
+                <p id="volume-result"></p>
+            </div>
+            <div class="conversion-container">
+                <h2>Mass (Killograms/Pounds)</h2>
+                <p id="mass-result"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
